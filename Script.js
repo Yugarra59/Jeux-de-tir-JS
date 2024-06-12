@@ -22,9 +22,9 @@ btn.onclick = function(){
 
         let target = document.createElement('img');
         target.id="target";
-        target.src="zemmouchat.png";
+        target.src="poker-chat.webp";
         container.appendChild(target);
-        target.style.top = Math.random() * (500 - target.offsetHeight) + 'px';
+        target.style.top = (Math.random() * (500 - target.offsetHeight )+ 75) + 'px';
         target.style.left = Math.random() * (600 - target.offsetWidth) + 'px';
         
 
@@ -49,10 +49,8 @@ btn.onclick = function(){
         // fin du jeu quand le temps est écoulé
         if(time === 0){
             clearInterval(interval);
-            container.innerHTML ="bravo ! tu a tuer "+ score + " zemmouchat";
-            if (score === 0) {
-                container.innerHTML = "Bah alors ? tu les trouves mignons ces zemmouchat ?"
-            }
+            container.innerHTML ="bravo ! tu a tuer "+ score +  " chat blasé ^^ ";
+            
         }
         }, 1000);
 
