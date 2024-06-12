@@ -52,6 +52,6 @@ btn.onclick = function(){
             container.innerHTML ="bravo ! tu a tuer "+ score +  " chat blasé ^^ ";
             
         }
-        }, 1000);
+        }, 2000);
 
 }
