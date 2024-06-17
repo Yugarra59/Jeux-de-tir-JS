@@ -55,3 +55,29 @@ btn.onclick = function(){
         }, 1000);
 
 }
+
+
+
+    let modal = document.getElementById('modal');
+    let modalOkBtn = document.getElementById('modal-ok-btn');
+    let closeModal = document.getElementsByClassName('close')[0];
+
+    modal.style.display = "block"; // Afficher la modal au chargement de la page
+
+    modalOkBtn.onclick = function() {
+        modal.style.display = "none"; // Cacher la modal quand on clique sur OK
+    }
+
+    closeModal.onclick = function() {
+        modal.style.display = "none"; // Cacher la modal quand on clique sur le bouton de fermeture
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none"; // Cacher la modal si on clique en dehors de la modal
+        }
+    }
+
+
+
+
