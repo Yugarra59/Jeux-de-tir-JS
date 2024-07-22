@@ -95,17 +95,17 @@ button {
 
 
 /* Tablettes */
-@media (min-width: 780px) and (max-width: 1100px) {
+@media (min-width: 790px) and (max-width: 1100px) {
     .container {
         margin: 0 auto;  
-      width: 80%; /* Pour les tablettes */
-      height: 300px; /* Pour les tablettes */
+      width: 400; 
+      height: 300px; 
     }
     .game_info {
-      font-size: 1.2em; /* Pour les tablettes */
+      font-size: 1.2em; 
     }
     .button_start {
-      font-size: 1.2em; /* Pour les tablettes */
+      font-size: 1.2em; 
     }
   }
   
@@ -113,15 +113,9 @@ button {
   @media (max-width: 780px) {
     .container {
         margin: 0 auto;
-        width: 50%;
+        max-width: 150px;
         height: 300px;
         
       } 
-    
-    .game_info {
-      font-size: 1em; /* Pour les mobiles */
-    }
-    .button_start {
-      font-size: 1em; /* Pour les mobiles */
-    }
+      
 } 
