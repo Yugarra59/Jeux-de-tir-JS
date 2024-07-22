@@ -94,3 +94,34 @@ button {
 }
 
 
+/* Tablettes */
+@media (min-width: 780px) and (max-width: 1100px) {
+    .container {
+        margin: 0 auto;  
+      width: 80%; /* Pour les tablettes */
+      height: 300px; /* Pour les tablettes */
+    }
+    .game_info {
+      font-size: 1.2em; /* Pour les tablettes */
+    }
+    .button_start {
+      font-size: 1.2em; /* Pour les tablettes */
+    }
+  }
+  
+  /* Mobiles */
+  @media (max-width: 780px) {
+    .container {
+        margin: 0 auto;
+        width: 50%;
+        height: 300px;
+        
+      } 
+    
+    .game_info {
+      font-size: 1em; /* Pour les mobiles */
+    }
+    .button_start {
+      font-size: 1em; /* Pour les mobiles */
+    }
+} 
